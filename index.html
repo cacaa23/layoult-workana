@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Workana</title>
+</head>
+<body>
+    <header class="cabecalho">
+            <div class="cabecalho-nav">
+                <nav>
+                <ul class="cabecalho-item">
+                    <li>
+                        <a href="#" class="logo"><img src="workana-logo.svg" alt="logo da workana"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.workana.com/pt/freelancers" class="li-item">Freelancers</a>
+                    </li>
+                    <li>
+                        <a href="https://www.workana.com/jobs?ref=home_top_bar" class="li-item">Trabalho Freelancer</a>
+                    </li>
+                    <li>
+                        <a href="https://www.workana.com/pt/how-it-works?ref=home_top_bar" class="li-item">Como funciona</a>
+                    </li>
+                    <li>
+                        <a href="https://www.workana.com/pt/business?ref=home_top_bar" class="li-item">Empresas</a>
+                    </li>
+                </ul>
+                
+            </nav>
+            <ul class="cadastro">
+                <li class="cadastro-item">
+                    <a href="https://www.workana.com/pt/signup?ref=top_bar">Cadastre-se</a>
+                </li>
+                <li class="cadastro-item">
+                    <a href="https://www.workana.com/login?ref=top_bar&r=%2Fpt%2Fjobs%3Fcategory%3Dit-programming%26language%3Dpt%26subcategory%3Dweb-development%252Cweb-design%252Ce-commerce">Entrar</a>
+                </li>
+            </ul>
+            </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="card-titulo">
+                <h2>
+                Você precisa contratar online? É fácil, rápido e seguro
+                </h2>
+                <h4>
+                Entregas no prazo e qualidade garantidas na Workana, o maior site freelancer do Brasil.
+                </h4>
+                <a href="https://www.workana.com/post-project-fs/?ref=google-banner">Encontre um Freelancer</a>
+            </div>
+         </div>
+         <div class="card-cadastro">
+            <a href="https://www.workana.com/signup/w?ref=google-banner" class="card-cadastro__link">Você quer trabalhar como freelancer? Cadastre-se aqui</a>
+         </div>
+         <section class="container-main">
+            <section class="container-lateral">
+                <aside class="pesquisa-lateral">
+                    <div class="categorias">
+                        <h4 class="categorias-titulo">
+                            Trabalhos freelancer de TI e Programação
+                        </h4>
+                        <p class="categorias-p">Categoria de projeto</p>
+                        <ul class="categorias-lista">
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="todas categorias" id="t-categorias">
+                            <label for="t-categorias">
+                                <span>Todas as categorias</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="ti-prog" id="ti-prog">
+                            <label for="ti-prog">
+                                <span>TI e Programação</span>
+                            </label>
+                            
+                                <ul class="categorias-lista__programacao">
+                                    <li class="categorias-lista__programacao__item">
+                                    <input type="checkbox" name="prog" id="prog">
+                                    <label for="prog">
+                                        <span>Programação</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item"></li>
+                                    <input type="checkbox" name="w-design" id="w-design">
+                                    <label  for="w-design">
+                                    <span>Web Design</span>    
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item">
+                                    <input  type="checkbox" name="l-virtuais" id="l-virtuais">
+                                    <label for="l-virtuais">
+                                        <span>Lojas Virtuais (e-commerce)</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item">
+                                    <input type="checkbox" name="w-press" id="w-press">
+                                    <label for="w-press">
+                                        <span>Wordpress</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item">
+                                    <input type="checkbox" name="p-apps" id="p-apps">
+                                    <label for="p-apps">
+                                        <span>Programação de Apps para Android, iOS e outros</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item">
+                                    <input type="checkbox" name="d-science" id="d-science">
+                                    <label for="d-science">
+                                        <span>Data Science</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item"> 
+                                    <input type="checkbox" name="app-desktop" id="app-desktop">
+                                    <label for="app-desktop">
+                                        <span>Aplicativos desktop</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item">
+                                    <input type="checkbox" name="ia" id="ia">
+                                    <label for="ia">
+                                        <span>Inteligência Artificial</span>
+                                    </label>
+                                    </li>
+        
+                                    <li class="categorias-lista__programacao__item">
+                                    <input type="checkbox" name="outros" id="outros">
+                                    <label for="outros">
+                                        <span>Outros</span>
+                                    </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="d-multi" id="d-multi">
+                            <label for="d-multi">
+                                <span>Outros</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="t-cont" id="t-cont">
+                            <label for="t-cont">
+                                <span>Tradução e conteúdos</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="m-vendas" id="m-vendas">
+                             <label for="m-vendas">
+                                <span>Marketing e Vendas</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="s-adm" id="s-adm">
+                            <label for="s-adm">
+                                <span>Suporte Administrativo</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="juridico" id="juridico">
+                            <label for="juridico">
+                                <span>Jurídico</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="f-adm" id="f-adm">
+                            <label for="f-adm">
+                                <span>Finanças e Administração</span>
+                            </label>
+                            </li>
+        
+                            <li class="categorias-lista__item">
+                            <input type="checkbox" name="e-manu" id="e-manu">
+                            <label for="e-manu">
+                                <span>Engenharia e Manufatura</span>
+                            </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="habilidades">
+                        <p class="habilidades-p">
+                            Habilidades
+                        </p>
+                        <div class="input-habilidades">
+                            <input type="search" id="input-h" placeholder="Informe habilidades que precisa">
+                            <label for="input-h"></label>
+                            <ul class="lista-habilidades">
+                                <li data-dropdown-item-index="0" tabindex="-1" class="lista-habilidades__item">
+                                    Design Gráfico
+                                </li>
+                                <li data-dropdown-item-index="0" tabindex="-1" class="lista-habilidades__item">
+                                    PHP
+                                </li>
+                                <li data-dropdown-item-index="0" tabindex="-1" class="lista-habilidades__item">
+                                    Adobe Illustrator
+                                </li>
+                                <li data-dropdown-item-index="0" tabindex="-1" class="lista-habilidades__item">
+                                    JavaScript
+                                </li>
+                                <li data-dropdown-item-index="0" tabindex="-1" class="lista-habilidades__item">
+                                    Escrita de artigos
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="data-pub">
+                            <p class="data-p">
+                                Data de publicação
+                            </p>
+                            <input type="datetime" placeholder="Em qualquer momento" id="data-place" i class="bi bi-chevron-down">
+                                <label for="data-place"></label>
+                        </div>
+                    </div>
+                    <div class="modalidade">
+                        <p class="modalidade-p">Modalidade de trabalho</p>
+                        <button class="botao-modalidade">Todas</button>
+                        <button class="botao-modalidade">Preço fixo</button>
+                        <button class="botao-modalidade">Por hora</button>
+                    </div>
+                    <div class="idioma">
+                        <p class="idioma-p">Idioma</p>
+                        <button class="botao-idioma">Todos</button>
+                        <button class="botao-idioma">English</button>
+                        <button class="botao-idioma">Português</button>
+                        <button class="botao-idioma">Espanõl</button>
+                    </div>
+                    <div class="localizacao">
+                        <p class="localizacao-p">
+                            Localização do cliente
+                        </p>
+                        <input type="text" placeholder="Todas as regiões" id="localizacao-input">
+                            <label for="localizacao-input"></label>
+                        <input type="text" placeholder="Todos os países" id="localizacao-input">
+                            <label for="localizacao-input"></label>
+                    </div>
+                    <div class="pagamentos">
+                        <p class="pagamentos-p">Pagamentos para freelancers</p>
+                        <button class="botao-pagamentos">Todos</button>
+                        <button class="botao-pagamentos">0</button>
+                        <button class="botao-pagamentos">1+</button>
+                    </div>
+                    <div class="propostas">
+                        <p class="propostas-p">Propostas recebidas</p>
+                        <div class="botao-propostar__container">
+                        <button class="botao-propostas">Todos</button>
+                        <button class="botao-propostas">0 - 4 propostas</button>
+                        <button class="botao-propostas">5+ propostas</button>
+                    </div>
+                    </div>
+                </aside>
+             </section>
+            <div class="card-principal-container">
+         <section class="container-principal">
+                <div class="busca-main">
+                    <input type="search" placeholder="Buscar" >
+                    <button search-icon><i class="bi bi-search"></i></button>
+                </div>
+                <div class="filtro-categoria">
+                    <span class="filtro-categoria__item">
+                        <span>Português</span>
+                        <button><i class="bi bi-x"></i></button>
+                    </span>
+                    <span class="filtro-categoria__item">
+                        <span>TI e Programação</span>
+                        <button><i class="bi bi-x"></i></button>
+                    </span>
+                </div>
+                <div class="card-main__link">
+                    <a href="https://www.workana.com/pt/hire/">Encontre os melhores freelancers para seu projeto aqui</a>
+                </div>
+
+                <div class="card-main destaque">
+                    <div class="card-main__top">
+                    <div class="card-main__header">
+                        <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+                    </div>
+                        <div class="card-main__botao">
+                            <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+        
+                            <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+                    </div>
+                </div>
+                <div class="data">
+                    <p class="data-p">Publicado: há 2 dias</p> 
+                    <p class="data-p">Propostas: 31</p>
+                        <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+                </div>
+                <div class="card-main__detalhes">
+                    <p class="card-main__detalhes-p">
+                        Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+                    </p>
+                    Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+                </div>
+                <div class="card-main__links">
+                    <a href="https://www.workana.com/jobs?skills=android">Android</a>
+                    <a href="https://www.workana.com/jobs?skills=api">API</a>
+                    <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+                    <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+                    <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+                    <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+                    <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+                    <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+                    <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+                </div>
+                <div class="info-user">
+                    <div class="user-icon"><img src="usuario-logo.png"></div>
+                    <div class="user-nome"><p>L. M.</p></div>
+                    <div class="user-resposta">
+                        <span>Última resposta: Há quase uma hora</span>
+                    </div>
+                    <div class="flag">
+                        <img src="br.svg">
+                    </div>
+                    <div class="pais"><span>Brasil</span></div>
+                </div>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="metodo-pag">
+                    <p class="metodo-pag-p">Método de pagamento: 
+                <div class="check">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div class="verif">
+                        <strong>Verficado</strong></p>
+                </div>
+                </div>
+
+                
+         </section>
+
+
+         <section class="container-principal">
+            <div class="card-main destaque">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+
+          <section class="container-principal">
+            <div class="card-main">
+              <div class="card-main__top">
+              <div class="card-main__header">
+                  <span>Desenvolvedor de Aplicativos Freelance Necessário para plataforma I...</span>
+              </div>
+                  <div class="card-main__botao">
+                      <button><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt#">Fazer uma Proposta</a></button>
+  
+                      <span>USD 1.000 - 3.000 <i class="bi bi-question-circle-fill"></i> </span>
+              </div>
+          </div>
+          <div class="data">
+              <p class="data-p">Publicado: há 2 dias</p> 
+              <p class="data-p">Propostas: 31</p>
+                  <p class="data-p">Prazo de Entrega: 30/03/2024</p>
+          </div>
+          <div class="card-main__detalhes">
+              <p class="card-main__detalhes-p">
+                  Desenvolvedor de Aplicativos Freelance Necessário para Plataforma Inovadora de Serviços Eventuais
+              </p>
+              Estamos em busca de um desenvolvedor de aplicativos altamente qualificado e criativo para criar uma plataforma inovadora destinada a conectar profissionais freelancers, como garçons, cozinheiros e... <button class="card-main__detalhes-p-btn">Ver mais detalhes</button>
+          </div>
+          <div class="card-main__links">
+              <a href="https://www.workana.com/jobs?skills=android">Android</a>
+              <a href="https://www.workana.com/jobs?skills=api">API</a>
+              <a href="https://www.workana.com/jobs?skills=html">HTML</a>
+              <a href="https://www.workana.com/jobs?skills=ios">iOS</a>
+              <a href="https://www.workana.com/jobs?skills=iphone">iPhone</a>
+              <a href="https://www.workana.com/jobs?skills=javascript">JavaScript</a>
+              <a href="https://www.workana.com/jobs?skills=mysql">MySQL</a>
+              <a href="https://www.workana.com/jobs?skills=php">PHP</a>
+              <a href="https://www.workana.com/jobs?skills=responsive-web-design">Responsive Web Design</a>
+          </div>
+          <div class="info-user">
+              <div class="user-icon"><img src="usuario-logo.png"></div>
+              <div class="user-nome"><p>L. M.</p></div>
+              <div class="user-resposta">
+                  <span>Última resposta: Há quase uma hora</span>
+              </div>
+              <div class="flag">
+                  <img src="br.svg">
+              </div>
+              <div class="pais"><span>Brasil</span></div>
+          </div>
+          <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+          </div>
+          <div class="metodo-pag">
+              <p class="metodo-pag-p">Método de pagamento: 
+          <div class="check">
+              <i class="bi bi-check-circle-fill"></i>
+          </div>
+          <div class="verif">
+                  <strong>Verficado</strong></p>
+          </div>
+          </div>
+          </section>
+        </div>
+
+          
+        
+    </main>
+    <div class="pagina-contador">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+      </div>
+    
+    <footer>
+        <div class="container-footer">
+    <div class="footer-topo">
+        <div class="footer-left">
+        <div class="logo-footer">
+            <a href="https://www.workana.com/login?r=%2Fdashboard"><img src="workana-logo.svg"></a>
+            <span>
+                © 2012 - 2024 | Workana LLC - Todos os direitos reservados
+            </span>
+        </div>
+    </div>
+    <div class="footer-right">
+        <div class="idioma">
+            <a data-troggle="dropdown" href="#" aria-expanded="false" class="dropdown-toggle"><span>Português</span>
+                <i class="bi bi-chevron-down"></i>
+            </a>
+        </div>
+        <div class="redes-sociais">
+            <a href="https://www.youtube.com/user/WorkanaTV" class="redes-sociais__links"><i class="bi bi-youtube"></i></a>
+            <a href="http://instagram.com/workanabr" class="redes-sociais__links"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/workanabrasil" class="redes-sociais__links"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/workanabr" class="redes-sociais__links"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/workana/" class="redes-sociais__links"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="footer-links">
+        <ul class="links-lista">
+            <p class="links-titulo">Quem somos?</p>
+            <li class="links-item"><a href="https://www.workana.com/pt/about">Sobre nós</a></li>
+            <li class="links-item"><a href="https://www.workana.com/hiring">Una-se a Equipe da Workana</a></li>
+            <li class="links-item"><a href="https://www.workana.com/contact/">Contato</a></li>
+            <li class="links-item"><a href="https://blog.workana.com/pt/">Blog</a></li>
+            <li class="links-item"><a href="https://www.workana.com/i/guias/">Guias</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/hire/">Contratar</a></li>
+            <li class="links-item"><a href="https://help.workana.com/hc/pt/articles/360040841214-pol%c3%adticas-de-workana">Políticas da Workana</a></li>
+            <li class="links-item"><a href="https://help.workana.com/hc/pt/articles/360041613914-pol%c3%adtica-de-privacidade">Política de privacidade</a></li>
+            <li class="links-item"><a href="https://help.workana.com/hc/pt/articles/360041499974-TERMOS-E-CONDI%C3%87%C3%95ES-DA-WORKANA">Termos de serviço</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt&subcategory=web-development%2Cweb-design%2Ce-commerce#cookies-config">Configuração de cookies</a></li>
+        </ul>
+
+        <ul class="links-lista">
+            <p class="links-titulo">Recursos</p>
+            <li class="links-item"><a href="https://help.workana.com/hc/pt">Central de ajuda</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/how-it-works">Como funciona</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/how-it-works-hours">Como funcionam os projetos por hora</a></li>
+            <li class="links-item"><a href="https://blog.workana.com/pt/cases-de-sucesso/">Histórias de sucesso dos clientes</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/plans?ref=home_footer">Planos de benefícios</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/press">Imprensa</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/business">Empresas</a></li>
+            <li class="links-item"><a href="https://www.youtube.com/playlist?list=PLkDtVLMsEd5iPjEdqQgO0_wORWLZM--iz">Tutorial para clientes</a></li>
+            <li class="links-item"><a href="https://www.youtube.com/playlist?list=PLkDtVLMsEd5hZqtkV2jXH04TXp4ERm6cm">Tutoriais para freelancers</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/time-report">Workana Time Report</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/sitemap">Mapa do site</a></li>
+        </ul>
+
+        <ul class="links-lista">
+            <p class="links-titulo">Encontre trabalho</p>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=it-programming">TI e Programação</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=design-multimedia">Design & Multimedia</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=writing-translation">Tradução e conteúdos</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=sales-marketing">Marketing e Vendas</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=admin-support">Suporte Administrativo</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=legal">Jurídico</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=finance-management">Finanças e Administração</a></li>
+            <li class="links-item"><a href="https://www.workana.com/jobs?category=engineering-manufacturing">Engenharia e Manufatura</a></li>
+        </ul>
+
+        <ul class="links-lista">
+            <p class="links-titulo">Freelancers</p>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/argentina">Freelancers Argentina</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/brasil">Freelancers Brasil</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/colombia">Freelancers Colômbia</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/uruguai">Freelancers Uruguai</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/mexico">Freelancers México</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/venezuela">Freelancers Venezuela</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/paraguai">Freelancers Paraguai</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/freelancers/honduras">Freelancersa Honduras</a></li>
+        </ul>
+
+        <ul class="links-lista">
+            <p class="links-titulo">Parceiros internacionais</p>
+            <li class="links-item"><a href="https://www.bdjobs.com/">Bdjobs (Bangladesh)</a></li>
+            <li class="links-item"><a href="https://www.catho.com.br/">Catho (Brazil)</a></li>
+            <li class="links-item"><a href="https://www.jobstreet.com/">JobStreet (S.E Asia)</a></li>
+            <li class="links-item"><a href="https://www.jora.com/">Jara (Worldwide)</a></li>
+            <li class="links-item"><a href="https://www.occ.com.mx/">OCC Mundial (Mexico)</a></li>
+            <li class="links-item"><a href="https://www.seek.com.au/">SEEK (Australia)</a></li>
+            <li class="links-item"><a href="https://www.workana.com/pt/jobs?category=it-programming&language=pt&subcategory=web-development%2Cweb-design%2Ce-commerce">Ver mais</a></li>
+        </ul>
+    </div>
+</div>
+    </footer>
+</body>
+</html>
